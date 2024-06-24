@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scroll Animations - Sujeito Programador</title>
+	<!--Bibiloteca Locomotive Scroll para folhas de estilo CSS-->
 		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css'/>
     <link rel="stylesheet" href="style.css">
 
@@ -16,11 +17,12 @@
 			<div class="main" id="main">
 					<h1 
 						class="title"
-						data-scroll
+						data-scroll    
 						data-scroll-speed="3"
 						data-scroll-position="top"
 						data-scroll-direction="horizontal"
 					>
+					<!--Dentro do h1 é definido as configurações de animação do locomotive Scroll através dos atributos data-scroll-->
 						Sujeito Programador
 					</h1>
 
@@ -74,9 +76,12 @@
 
 	</div>
 
+	<!--Biblioteca GSAP no cdn para animações mais elaboradas -->
 		<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+	<!--Biblioteca do ScrollTrigger do GSAP-->
 		<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 
+	<!--Biblioteca dos scripts da locomotive scroll-->
 		<script src='https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js'></script>
     <script src="script.js"></script>
 </body>
